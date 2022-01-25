@@ -18,7 +18,7 @@ for(let i=0; i< navItems.length; i++) {
 function toggleNav() {
     nav.classList.toggle('active');
 }
-
+ 
 function changePage(e) {
     const page = e.target.getAttribute('data-id');
 
