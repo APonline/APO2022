@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>APO 2022</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <div id="menu">
+                <i class="fas fa-bars" ></i>
+            </div>
+
+            <div id="menu-list">
+                <i class="fas fa-home nav-btn" data-id="0" data-name="HOME" data-direction="left" data-background="100% 100%"></i>
+                <i class="fas fa-user nav-btn" data-id="1" data-name="ABOUT" data-direction="bottom" data-background="0% 0%"></i>
+                <i class="fas fa-briefcase nav-btn" data-id="2" data-name="WORK" data-direction="right" data-background="0% 100%"></i>
+                <i class="fas fa-file nav-btn" data-id="3" data-name="CV" data-direction="left" data-background="100% 100%"></i>
+                <i class="fas fa-envelope nav-btn" data-id="4" data-name="CONTACT" data-direction="top" data-background="50% 50%"></i>
+            </div>
+        </nav>
+
+        <div class="container flex col flex-e">
+            <div class="fader-top"></div>
+            <div class="inner-container flex row flex-c" style="padding: initial;">
+                <div id="home" data-id="0" class="page title-logo flex col flex-c" style="height:auto;  padding: 80px 0;">
+                    <img class="crest" src="./images/2022_logo.png" width="150" alt="">
+                    <p class="pg-title"></p>
+                    <p class="title knockout">PHILLIPS</p>
+                    <p class="title2">// 2022 \\</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="inner-container flex col flex-c">
+                <div id="about" class="page still-page" data-id="1">
+                    <div class="pg-title">
+                        <h1>ABOUT</h1>
+                    </div>
+                </div>
+
+                <div id="work" class="page still-page" data-id="2">
+                    <div class="pg-title">
+                        <h1>WORK</h1>
+                    </div>
+                </div>
+
+                <div id="cv" class="page still-page" data-id="3">
+                    <div class="pg-title">
+                        <h1>CV</h1>
+                    </div>
+                </div>
+
+                <div id="filter"></div>
+                <div id="wall"></div>
+                <div id="wall-paint"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="fader-bottom"></div>
+            <div class="flex col flex-c">
+                <div id="contact" class="page" data-id="4">
+                    <div class="pg-title">
+                        <h1>CONTACT</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src='https://kit.fontawesome.com/86f3d02ba1.js'></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
